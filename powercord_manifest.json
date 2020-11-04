@@ -1,0 +1,10 @@
+{
+    "name": "Theme Source v2",
+    "description": "DEV POGGERS",
+    "version": "0.1.0b",
+    "author": "LuckFire#4800",
+    "theme": "index.css",
+    "consent": "false",
+    "splashTheme": "splash.css",
+    "license": "MIT"
+}

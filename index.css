@@ -1,0 +1,176 @@
+:root {
+    --background-primary: rgb(8, 8, 8) !important;
+    --background-secondary: rgb(5, 5, 5) !important;
+    --background-secondary-alt: rgb(15, 15, 15) !important;
+    --background-tertiary: black !important;
+    --background-accent: rgb(15, 15, 15) !important;
+    --background-floating: black !important; 
+    --background-modifier-hover: rgba(255, 255, 255, 0.015) !important;
+    --background-modifier-active: rgba(255, 255, 255, 0.025) !important;
+    --background-modifier-selected: rgba(255, 255, 255, 0.03) !important;
+    --background-modifier-accent: hsla(0, 0%, 100%, 0.06) !important;
+    --channeltextarea-background: rgb(20, 20, 20);
+    --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+    --deprecated-card-editable-bg: rgba(0, 0, 0, 0.1) !important;
+    --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+    --activity-card-background: var(--background-primary) !important;
+    --channels-default: #9f9f9f !important;
+    --text-muted: #b6b6b6 !important;
+    --text-normal: #fbfbfb !important; 
+    --interactive-normal: #c8c8c8 !important;
+    --interactive-hover: #dcddde !important;
+    --interactive-active: #fff !important;
+    --interactive-muted: #747474 !important;
+    --header-secondary: #c9c9c9 !important;
+    --toast-background: var(--background-primary) !important;
+    --toast-header: var(--background-tertiary) !important;
+    --toast-contents: var(--background-secondary) !important;
+    --toast-box-shadow: rgba(0, 0, 0, .2) !important;
+    --toast-border: var(--background-tertiary) !important;
+    --offline-color: rgb(60, 60, 60) !important;
+}
+
+/* Use to freeze Discord - setTimeout(function(){debugger;}, 3000) */
+
+/* Webkit Scrollers */
+.scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-thumb,
+.auto-Ge5KZx.scrollerBase-289Jih::-webkit-scrollbar-thumb,
+.thin-1ybCId.scrollerBase-289Jih::-webkit-scrollbar-thumb {
+    background-color: var(--background-secondary-alt) !important;
+}
+.scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-track,
+.auto-Ge5KZx.scrollerBase-289Jih::-webkit-scrollbar-track {
+    background-color: var(--background-secondary) !important;
+}
+
+
+/* Popout Modals */
+.modal-1k91nT.root-1gCeng,
+.modalSize-cqUaws.root-1gCeng,
+.modalRoot-1Kx4Hb.root-1gCeng,
+.main-3auUui.root-1gCeng,
+.modalRoot-LW89o7.root-1gCeng,
+.modal-yWgWj-.fullscreenOnMobile-1aglG_ {
+    background-color: var(--background-primary);
+    box-shadow: 0 0 0 1px var(--background-secondary), 0 2px 10px 0 rgba(0, 0, 0, .2);
+}
+.modal-1k91nT.root-1gCeng > .header-1TKi98 {
+    background-color: var(--background-primary);
+    box-shadow: 0 0 0 1px var(--background-secondary), 0 2px 10px 0 rgba(0, 0, 0, .2);
+}
+.modal-1k91nT.root-1gCeng > .footer-1FPmkC,
+.modalSize-cqUaws.root-1gCeng > form > .footer-2gL1pp,
+.modalRoot-1Kx4Hb.root-1gCeng > .footer-2gL1pp,
+.modalRoot-LW89o7.root-1gCeng > .footer-2gL1pp,
+.modal-yWgWj-.fullscreenOnMobile-1aglG_ > .footer-2gL1pp {
+    background-color: var(--background-tertiary);
+    box-shadow: 0 0 0 1px var(--background-secondary), 0 2px 10px 0 rgba(0, 0, 0, .2);
+}
+.settingsGroup-2NaPKC > .group-2dAfBy > .selectorButton-EEUWed {
+    border-color: var(--background-secondary) !important;
+}
+
+.keyboardShortcutsModal-3piNz7 {
+    background-color: var(--background-primary) !important;
+    box-shadow: 0 0 0 1px var(--background-secondary), 0 2px 10px 0 rgba(0, 0, 0, .2);
+}
+.keyboardShortcutsModal-3piNz7 > .modalSubtitle-1Pj5nv {
+    border-bottom: 1px solid var(--background-tertiary) !important;
+}
+.keybindShortcut-1BD6Z1 > span {
+    background-color: var(--background-secondary-alt) !important;
+    box-shadow: inset 0 -4px 0 var(--background-secondary) !important;
+    border-color: var(--background-tertiary) !important;
+}
+
+.modal-yWgWj-.fullscreenOnMobile-1aglG_ > .reactors-Blmlhw {
+    background-color: var(--background-primary);
+}
+.modal-yWgWj-.fullscreenOnMobile-1aglG_ > .scroller-1-nKid {
+    background-color: var(--background-tertiary);
+}
+
+
+/* Message Search and Quickswitcher */
+.searchFilter-2ESiM3,
+.searchAnswer-3Dz2-q {
+    background-color: var(--background-secondary-alt) !important;
+}
+#search-results {
+    background-color: var(--background-secondary) !important;
+    box-shadow: 0 0 0 1px var(--background-tertiary), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+#search-results > .focused-2bY0OD {
+    background-color: var(--background-secondary) !important;
+}
+.option-96V44q.selected-rZcOL- {
+    background-color: var(--background-modifier-hover) !important;
+}
+.option-96V44q::after {
+    background: transparent !important;
+}
+.option-96V44q.selected-rZcOL-::after {
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0),var(--background-secondary-alt) 50%) !important;
+}
+.option-96V44q.selected-rZcOL-::before {
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0),var(--background-secondary-alt) 80%) !important;
+    padding-left: 10px;
+}
+
+.react-datepicker,
+.react-datepicker__header {
+    background-color: var(--background-secondary) !important;
+}
+.react-datepicker__day:not(:hover):not(.react-datepicker__day--disabled):not(.react-datepicker__day--outside-month) {
+    background-color: var(--background-secondary-alt) !important;
+}
+.react-datepicker__day {
+    border-color: var(--background-tertiary) !important;
+}
+.react-datepicker__day--disabled,
+.react-datepicker__day--outside-month {
+    background-color: var(--background-primary) !important;
+}
+
+.quickswitcher-3JagVE {
+    box-shadow: 0 0 0 1px var(--background-secondary), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.quickswitcher-3JagVE > .input-2VB9rf {
+    background-color: var(--channeltextarea-background)
+}
+
+
+
+
+
+/* Server Boost */
+.perksModal-fSYqOq {
+    background-color: var(--background-secondary-alt) !important;
+    color: white;
+}
+.perksModalContentWrapper-2HU6uL > div > .progressBarWrapper-15RqAy > div > .barBackground-2EEiLw {
+    background: var(--background-tertiary);
+}
+.tierMarkerBackground-3q29am {
+    background: var(--background-secondary-alt) !important;
+}
+.tierMarkerInProgress-24LMzJ {
+    background: var(--background-tertiary) !important;
+}
+
+.tierHeaderLocked-1s2JJz {
+    background-color: var(--background-tertiary) !important;
+}
+.tierIcon-2qSKGj > path,
+.tierLock-3CSxSX > path,
+.tierTitle-y7BLPl,
+.tierRequirements-dGesMA {
+    color: white;
+    fill: white !important;
+}
+.tierBody-16Chc9 {
+    background-color: var(--background-secondary) !important;
+}
+.perks-3OsGy8 > .perk-2WeBWW {
+    background-color: var(--background-tertiary) !important;
+}
