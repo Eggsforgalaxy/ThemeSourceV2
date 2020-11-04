@@ -44,13 +44,14 @@
 }
 
 
-/* Popout Modals */
+/* All/Unsorted Popouts and Modals */
 .modal-1k91nT.root-1gCeng,
 .modalSize-cqUaws.root-1gCeng,
 .modalRoot-1Kx4Hb.root-1gCeng,
 .main-3auUui.root-1gCeng,
 .modalRoot-LW89o7.root-1gCeng,
-.modal-yWgWj-.fullscreenOnMobile-1aglG_ {
+.modal-yWgWj-.fullscreenOnMobile-1aglG_,
+.root-1gCeng.small-3iVZYw { /* All Modals */
     background-color: var(--background-primary);
     box-shadow: 0 0 0 1px var(--background-secondary), 0 2px 10px 0 rgba(0, 0, 0, .2);
 }
@@ -62,7 +63,8 @@
 .modalSize-cqUaws.root-1gCeng > form > .footer-2gL1pp,
 .modalRoot-1Kx4Hb.root-1gCeng > .footer-2gL1pp,
 .modalRoot-LW89o7.root-1gCeng > .footer-2gL1pp,
-.modal-yWgWj-.fullscreenOnMobile-1aglG_ > .footer-2gL1pp {
+.modal-yWgWj-.fullscreenOnMobile-1aglG_ > .footer-2gL1pp,
+.root-1gCeng.small-3iVZYw > .footer-2gL1pp {
     background-color: var(--background-tertiary);
     box-shadow: 0 0 0 1px var(--background-secondary), 0 2px 10px 0 rgba(0, 0, 0, .2);
 }
@@ -70,7 +72,31 @@
     border-color: var(--background-secondary) !important;
 }
 
-.keyboardShortcutsModal-3piNz7 {
+.colorPickerCustom-2CWBn2 { /* Color Picker */
+    background-color: var(--background-secondary-alt) !important;
+    border-color: var(--background-secondary) !important;
+}
+
+.emojiPicker-3PwZFl > .inspector-S2gM3e { /* Emoji Picker */
+    background-color: var(--background-tertiary);
+}
+.emptyHintCard-2mUdMe {
+    background-color: var(--background-secondary-alt) !important;
+}
+
+.container-VSDcQc.positionTop-3e-X1p > .header-2bNvm4 { /* Add Role */
+    background-color: var(--background-tertiary) !important;
+}
+.container-VSDcQc.positionTop-3e-X1p > .autocompleteShadow-iiGWFU {
+    background-color: var(--background-primary) !important;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px var(--background-secondary);
+}
+.container-VSDcQc.positionTop-3e-X1p > .autocompleteArrowWrapper-3Z7OuM > .autocompleteArrow-Zxoy9H {
+    background-color: var(--background-primary) !important;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px var(--background-secondary);
+}
+
+.keyboardShortcutsModal-3piNz7 { /* Keyboard Shortcut */
     background-color: var(--background-primary) !important;
     box-shadow: 0 0 0 1px var(--background-secondary), 0 2px 10px 0 rgba(0, 0, 0, .2);
 }
@@ -83,16 +109,33 @@
     border-color: var(--background-tertiary) !important;
 }
 
-.modal-yWgWj-.fullscreenOnMobile-1aglG_ > .reactors-Blmlhw {
+.modal-yWgWj-.fullscreenOnMobile-1aglG_ > .reactors-Blmlhw { /* Reactions */
     background-color: var(--background-primary);
 }
 .modal-yWgWj-.fullscreenOnMobile-1aglG_ > .scroller-1-nKid {
     background-color: var(--background-tertiary);
 }
 
+.everyonePopout-nEbJY3 > .body-2iXqIL { /* Mention Everyone Warning */
+    box-shadow: 0 2px 10px 0 var(--background-secondary-alt);
+}
+.everyonePopout-nEbJY3 > .body-2iXqIL { 
+    background-color: var(--background-primary);
+}
+.everyonePopout-nEbJY3 > .footer-2aTx0s { 
+    background-color: var(--background-tertiary);
+}
+
+.streamPreview-2-WUWT > .previewContainer-12UlHl { /* Stream Preview */
+    background: var(--background-secondary);
+}
+.streamPreview-2-WUWT > .body-Ogsp8i {
+    background: var(--background-tertiary);
+}
+
 
 /* Message Search and Quickswitcher */
-.searchFilter-2ESiM3,
+.searchFilter-2ESiM3, /* Message Search */
 .searchAnswer-3Dz2-q {
     background-color: var(--background-secondary-alt) !important;
 }
@@ -117,7 +160,7 @@
     padding-left: 10px;
 }
 
-.react-datepicker,
+.react-datepicker, /* Date Picker */
 .react-datepicker__header {
     background-color: var(--background-secondary) !important;
 }
@@ -132,7 +175,7 @@
     background-color: var(--background-primary) !important;
 }
 
-.quickswitcher-3JagVE {
+.quickswitcher-3JagVE { /* Quick Switcher */
     box-shadow: 0 0 0 1px var(--background-secondary), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
 }
 .quickswitcher-3JagVE > .input-2VB9rf {
@@ -140,11 +183,8 @@
 }
 
 
-
-
-
-/* Server Boost */
-.perksModal-fSYqOq {
+/* Guild Related Modals */
+.perksModal-fSYqOq { /* Server Boost */
     background-color: var(--background-secondary-alt) !important;
     color: white;
 }
@@ -173,4 +213,13 @@
 }
 .perks-3OsGy8 > .perk-2WeBWW {
     background-color: var(--background-tertiary) !important;
+}
+
+.regionSelectModal-12e-57 { /* Region Selector */
+    background-color: var(--background-primary) !important;
+    box-shadow: 0 0 0 1px var(--background-secondary), 0 2px 10px 0 rgba(0, 0, 0, .2) !important;
+}
+.regionSelectModalOption-2DSIZ3 {
+    background-color: var(--background-secondary) !important;
+    border-color: var(--background-secondary-alt) !important;
 }
